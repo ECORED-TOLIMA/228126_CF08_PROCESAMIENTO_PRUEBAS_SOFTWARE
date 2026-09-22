@@ -50,3 +50,7 @@ Cada punto dice qué se decidió y por qué, para poder revertirlo si no es lo q
 13. **Tema 3 · tarjetas del backend.** En el XD el título de la segunda tarjeta mide 16 px y el
     de la primera 18 px; se igualan a 18 px.
 14. **Tabla 3.** La primera columna va centrada como en el XD y sin negrilla, como en el DI.docx.
+15. **Tema 4 · foto del 4.2.** La persona está en el XD como relleno de imagen de un trazado
+    compuesto (`Unión 6`) que el exportador no rasteriza; la composición se recorta del PDF.
+16. **Tema 4 · slider del 4.3.** Cinco diapositivas (encabezado en el artboard, las otras cuatro en
+    el pasteboard). El XD escribe «1/2»; el componente cuenta 1/5…5/5.
