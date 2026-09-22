@@ -258,6 +258,7 @@ figcaption
       border: none
       text-align: center
       padding: 14px 20px
+      font-size: 1em
     tbody
       tr:nth-child(odd) td
         background-color: #F3F3F3
@@ -286,6 +287,70 @@ figcaption
     border-radius: 0
     i
       color: $white
+
+// Icono junto a un párrafo en una fila flex: no se encoge.
+.icono-fijo
+  flex: 0 0 auto
+
+// Tema 2 ------------------------------------------------------------------------------------
+.bg-C05
+  background-color: $color-1-vc
+.bg-banda
+  &--t2-1
+    background-image: url(../assets/curso/temas/bg/t2-1.png)
+  &--t2-2
+    background-image: url(../assets/curso/temas/bg/t2-2.png)
+
+// Fila de cajas pegadas: sólo las esquinas exteriores llevan el radio del XD (20).
+.tarjeta--container.redondeo-20
+  > :first-child
+    border-radius: 20px 0 0 20px
+  > :last-child
+    border-radius: 0 20px 20px 0
+  @media (max-width: $bp-max-sm)
+    > :first-child, > :last-child
+      border-radius: 20px
+
+// Título de cuarto nivel: fondo #FFEBBE con filete #7A4F1E de 8 a la izquierda.
+.titulo-cuarto-nivel
+  display: inline-block
+  background-color: $color-3-vc
+  border-left: 8px solid $color-3-vo
+  padding: 4px 20px
+  h4
+    margin: 0
+    font-size: 1.125em
+    font-weight: $base-bold-font-weight
+
+// Carrusel de métodos HTTP (SlyderF): tarjeta blanca 322x259 r=20 y chevrones #A10000 sin fondo.
+.slyder--C02
+  .slyder-f__btn i
+    color: $color-acento-botones
+    font-size: 3rem
+  .tarjeta
+    border-radius: 20px
+    min-height: 259px
+
+// Códigos de estado (ImagenInfografica): punto #A10000 de 42 sobre un halo de 78 al 30 %.
+.img-infografica.infografica--C01
+  .img-infografica__item
+    width: 7.65%
+  .img-infografica__item__dot
+    &:before, &:after
+      background-color: $color-acento-botones
+      opacity: .3
+  .img-infografica__item__numero
+    width: 54%
+    height: 54%
+    border-radius: 50%
+    background-color: $color-acento-botones
+    color: $white
+    display: flex
+    align-items: center
+    justify-content: center
+    font-size: 1.375em
+  .img-infografica__card .tarjeta
+    border-radius: 20px
 
 /**************************************************************/
 /***CUSTOM STYLES***/

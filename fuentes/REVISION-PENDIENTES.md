@@ -32,3 +32,11 @@ Cada punto dice qué se decidió y por qué, para poder revertirlo si no es lo q
    tres puntos, texto en Roboto oscuro y sin resaltado de sintaxis.
 7. **Títulos de las tarjetas con icono (1.4).** Van sin el punto final, como en el XD; en el
    DI.docx forman parte de la frase.
+8. **Tema 2 · códigos de estado HTTP.** El XD dibuja un «+» bajo cada código y, en el pasteboard,
+   la tarjeta amarilla que se abre con su descripción: se maqueta como infografía de puntos
+   calientes (`ImagenInfografica`) sobre la imagen del panel. En móvil va la versión vertical del
+   pasteboard, que ya trae las descripciones.
+9. **Tema 2 · métodos HTTP.** El carrusel lleva las cinco tarjetas (GET y POST en el artboard; PUT,
+   PATCH y DELETE en el pasteboard). El kit oculta la flecha de atrás en la primera posición.
+10. **Tema 2 · «B.Protocolo HTTPS».** El XD escribe el título sin espacio tras la letra; se deja
+    «B. Protocolo HTTPS», igual que «A. Protocolo HTTP».
