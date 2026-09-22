@@ -40,3 +40,13 @@ Cada punto dice qué se decidió y por qué, para poder revertirlo si no es lo q
    PATCH y DELETE en el pasteboard). El kit oculta la flecha de atrás en la primera posición.
 10. **Tema 2 · «B.Protocolo HTTPS».** El XD escribe el título sin espacio tras la letra; se deja
     «B. Protocolo HTTPS», igual que «A. Protocolo HTTP».
+11. **Tema 3 · tarjetas del frontend.** El XD pinta la tercera tarjeta en #F1E2FF con el aro
+    #D5AAFF: es el estado `:hover`. Las tres van como `.tarjeta--boton` (reposo #F9E7E7 y aro
+    #A10000; hover #F1E2FF y aro #D5AAFF). El aro que el XD no dibuja se generó cambiando sólo
+    ese color del icono.
+12. **Tema 3 · flujo de herramientas del 3.2.** El kit no trae un componente en zigzag; se
+    maqueta con filas alternas, el número en círculo #D5AAFF y los conectores de 3 px del XD.
+    En móvil los pasos se apilan sin conectores.
+13. **Tema 3 · tarjetas del backend.** En el XD el título de la segunda tarjeta mide 16 px y el
+    de la primera 18 px; se igualan a 18 px.
+14. **Tabla 3.** La primera columna va centrada como en el XD y sin negrilla, como en el DI.docx.

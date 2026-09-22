@@ -352,6 +352,125 @@ figcaption
   .img-infografica__card .tarjeta
     border-radius: 20px
 
+// Tema 3 ------------------------------------------------------------------------------------
+.bg-banda
+  &--t3-1
+    background-image: url(../assets/curso/temas/bg/t3-1.png)
+  &--t3-2
+    background-image: url(../assets/curso/temas/bg/t3-2.png)
+.bg-C06
+  background-color: $color-primario
+
+// Tarjeta con estado hover (base del catálogo, componentes/_tarjetas.sass). En reposo #F9E7E7 y
+// aro #A10000; en hover #F1E2FF y aro #D5AAFF (la tercera tarjeta del XD pinta ese estado).
+// Los dos iconos van apilados y se cruzan con opacity.
+.tarjeta--boton
+  border-radius: 20px
+  background-color: $color-sistema-h
+  cursor: pointer
+  transition: background-color 0.3s ease-in-out
+  &.C01
+    background-color: $color-4-vc
+    &:hover, &:focus, &:active
+      background-color: $color-1-vc
+  .iconos-hover
+    position: relative
+    width: 116px
+    margin: 0 auto
+    img
+      transition: opacity 0.3s ease-in-out
+    img + img
+      position: absolute
+      top: 0
+      left: 0
+      opacity: 0
+  &:hover .iconos-hover
+    img:first-child
+      opacity: 0
+    img + img
+      opacity: 1
+
+// Tarjeta con foto arriba e icono cuadrado de 100 (#D5AAFF) montado sobre el borde inferior.
+.tarjeta--foto-icono
+  background-color: $color-primario
+  height: 100%
+  &__foto
+    position: relative
+    img.foto
+      width: 100%
+      display: block
+  &__icono
+    position: absolute
+    left: 33px
+    bottom: 0
+    width: 100px
+    background-color: $color-primario
+
+// Flujo de pasos en zigzag del 3.2: número en círculo #D5AAFF de 53, conectores de 3 px del
+// mismo color que bajan por el lado del número y cruzan al lado contrario al final de cada paso.
+.flujo-zigzag
+  &__paso
+    position: relative
+    display: flex
+    align-items: center
+    padding: 24px 0 40px
+    &:before, &:after
+      content: ''
+      position: absolute
+      width: 3px
+      background-color: $color-primario
+      left: 25px
+    &:before
+      top: 0
+      height: 50%
+    &:after
+      top: 50%
+      bottom: 0
+    .flujo-zigzag__linea
+      position: absolute
+      left: 25px
+      right: 25px
+      bottom: 0
+      height: 3px
+      background-color: $color-primario
+    &:first-child:before, &:last-child:after, &:last-child .flujo-zigzag__linea
+      display: none
+    &--der
+      flex-direction: row-reverse
+      &:before, &:after
+        left: auto
+        right: 25px
+      .flujo-zigzag__texto h4
+        text-align: right
+  &__numero
+    flex: 0 0 53px
+    height: 53px
+    border-radius: 50%
+    background-color: $color-primario
+    display: flex
+    align-items: center
+    justify-content: center
+    font-size: 1.5em
+    font-weight: $base-bold-font-weight
+    position: relative
+    z-index: 1
+  &__texto
+    flex: 1 1 auto
+    padding: 0 24px
+  &__icono
+    flex: 0 0 129px
+    margin: 0 57px
+  @media (max-width: $bp-max-md)
+    &__paso, &__paso--der
+      flex-direction: column
+      text-align: center
+      &:before, &:after, .flujo-zigzag__linea
+        display: none
+      .flujo-zigzag__texto h4
+        text-align: center
+    &__icono
+      margin: 16px 0
+
 /**************************************************************/
 /***CUSTOM STYLES***/
 /**************************************************************/
