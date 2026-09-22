@@ -6,7 +6,7 @@
     p.mb-5(data-aos="fade-down") El proceso inicia con una arquitectura que define la estructura y el licenciamiento del sistema. Posteriormente, se abordan los protocolos de comunicación y las técnicas de diseño responsivo, procurando que la interfaz responda a criterios de accesibilidad y rendimiento. El desarrollo requiere el uso de herramientas de edición, construcción y control de versiones. Una vez publicado el sitio #[em web] bajo los parámetros de configuración correspondientes, el análisis de información permite recopilar e interpretar métricas que orientan la identificación de oportunidades de mejora y favorecen un ciclo continuo de optimización técnica y funcional.
 
     figure.mb-5(data-aos="fade-down")
-      img.m-auto(src="@/assets/curso/sintesis.svg" alt="Mapa conceptual. Los fundamentos para el desarrollo de aplicaciones web se basan en cinco ejes: arquitectura web, comunicación y diseño web, desarrollo web, sitio web y análisis de información, cada uno con los temas que lo componen." style="width: 1236px")
+      img.m-auto(src="@/assets/curso/sintesis.svg" alt="En la síntesis se presenta un esquema de los principales contenidos del componente formativo, describiendo los fundamentos del ciclo de vida del software, la definición y tipos de requisitos, así como los procesos de ingeniería y elicitación de requisitos. También se incluyen los roles que participan en el proceso y las principales herramientas utilizadas para el modelado y la captura de requisitos, como los diagramas de casos de uso, las historias de usuario y el storyboard." style="width: 1236px")
 
     .row.justify-content-center
       .col-auto

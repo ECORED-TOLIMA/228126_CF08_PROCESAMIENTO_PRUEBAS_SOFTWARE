@@ -79,8 +79,8 @@
           h5 Figura 4.
           span Diagrama de interacción cliente - API REST - base de datos
         figure(data-aos="fade-down")
-          img.d-none.d-md-block.w-100(src='@/assets/curso/temas/t3/9.svg' alt='Figura 4. Flujo de comunicación entre un cliente frontend, un servidor backend mediante una API REST y una base de datos SQL: envío de una solicitud POST con datos JSON, validación del token JWT, procesamiento de la lógica, inserción de datos mediante SQL, confirmación de la operación y respuesta HTTP 201 Created al cliente.')
-          img.d-md-none.m-auto(src='@/assets/curso/temas/t3/9-m.svg' alt='Figura 4. Flujo de comunicación entre un cliente frontend, un servidor backend mediante una API REST y una base de datos SQL: envío de una solicitud POST con datos JSON, validación del token JWT, procesamiento de la lógica, inserción de datos mediante SQL, confirmación de la operación y respuesta HTTP 201 Created al cliente.')
+          img.d-none.d-md-block.w-100(src='@/assets/curso/temas/t3/9.svg' alt='Figura 4 que representa el flujo de comunicación entre un cliente frontend, un servidor backend mediante una API REST y una base de datos SQL. El proceso muestra el envío de una solicitud POST con datos JSON, la validación del token JWT y el procesamiento de la lógica en el servidor, la inserción de datos mediante SQL, la confirmación de la operación y la respuesta HTTP 201 Created enviada al cliente.')
+          img.d-md-none.m-auto(src='@/assets/curso/temas/t3/9-m.svg' alt='Figura 4 que representa el flujo de comunicación entre un cliente frontend, un servidor backend mediante una API REST y una base de datos SQL. El proceso muestra el envío de una solicitud POST con datos JSON, la validación del token JWT y el procesamiento de la lógica en el servidor, la inserción de datos mediante SQL, la confirmación de la operación y la respuesta HTTP 201 Created enviada al cliente.')
 
     separador
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
@@ -89,44 +89,46 @@
     p.mb-4(data-aos="fade-down") La siguiente es la cadena y flujo de trabajo con herramientas de desarrollo #[em web]:
 
     .bg-banda.bg-banda--t3-2.py-5.mb-5
-      .row.justify-content-center
-        .col-lg-10
-          .flujo-zigzag
-            .flujo-zigzag__paso(data-aos="fade-down")
-              .flujo-zigzag__numero 1
-              .flujo-zigzag__texto
-                h4.mb-2 Editores de código (VS Code)
-                p.mb-0 Herramientas de edición de código con soporte para resaltado de sintaxis, autocompletado inteligente, refactorización y depuración integrada (p. ej., Visual Studio Code y JetBrains WebStorm).
-              img.flujo-zigzag__icono(src='@/assets/curso/temas/t3/10.svg')
-              .flujo-zigzag__linea
-            .flujo-zigzag__paso.flujo-zigzag__paso--der(data-aos="fade-down")
-              .flujo-zigzag__numero 2
-              .flujo-zigzag__texto
-                h4.mb-2 Control de versiones (Git y GitHub)
-                p.mb-0 Herramientas y plataformas que permiten registrar y gestionar los cambios realizados en el código fuente a lo largo del tiempo, facilitando la colaboración, la trazabilidad y el trabajo mediante ramas (#[em branches]).
-              img.flujo-zigzag__icono(src='@/assets/curso/temas/t3/11.svg')
-              .flujo-zigzag__linea
-            .flujo-zigzag__paso(data-aos="fade-down")
-              .flujo-zigzag__numero 3
-              .flujo-zigzag__texto
-                h4.mb-2 Empaquetador (Vite o Webpack)
-                p.mb-0 Herramientas que permiten gestionar y optimizar los recursos de una aplicación durante el proceso de desarrollo y construcción, incluyendo tareas como el procesamiento de dependencias, la transformación del código y la generación de archivos optimizados para su distribución.
-              img.flujo-zigzag__icono(src='@/assets/curso/temas/t3/12.svg')
-              .flujo-zigzag__linea
-            .flujo-zigzag__paso.flujo-zigzag__paso--der(data-aos="fade-down")
-              .flujo-zigzag__numero 4
-              .flujo-zigzag__texto
-                h4.mb-2 Contenedor (Docker)
-                p.mb-0 Tecnología de contenerización que permite empaquetar una aplicación junto con sus dependencias y configuraciones en un entorno aislado y reproducible, facilitando su ejecución consistente en diferentes entornos de desarrollo, prueba y producción.
-              img.flujo-zigzag__icono(src='@/assets/curso/temas/t3/13.svg')
-              .flujo-zigzag__linea
-            .flujo-zigzag__paso(data-aos="fade-down")
-              .flujo-zigzag__numero 5
-              .flujo-zigzag__texto
-                h4.mb-2 Servidor de producción
-                p.mb-0 Entorno en el que la aplicación se despliega y queda disponible para los usuarios finales. Comprende la configuración del servidor, la ejecución de los servicios necesarios y la gestión de aspectos como disponibilidad, seguridad, rendimiento y monitoreo.
-              img.flujo-zigzag__icono(src='@/assets/curso/temas/t3/14.svg')
-              .flujo-zigzag__linea
+      .col-12
+        .p-5
+          .row.justify-content-center
+            .col-lg-10
+              .flujo-zigzag
+                .flujo-zigzag__paso(data-aos="fade-down")
+                  .flujo-zigzag__numero 1
+                  .flujo-zigzag__texto
+                    h4.mb-2 Editores de código (VS Code)
+                    p.mb-0 Herramientas de edición de código con soporte para resaltado de sintaxis, autocompletado inteligente, refactorización y depuración integrada (p. ej., Visual Studio Code y JetBrains WebStorm).
+                  img.flujo-zigzag__icono.d-none.d-lg-block(src='@/assets/curso/temas/t3/10.svg')
+                  .flujo-zigzag__linea
+                .flujo-zigzag__paso.flujo-zigzag__paso--der(data-aos="fade-down")
+                  .flujo-zigzag__numero 2
+                  .flujo-zigzag__texto
+                    h4.mb-2 Control de versiones (Git y GitHub)
+                    p.mb-0 Herramientas y plataformas que permiten registrar y gestionar los cambios realizados en el código fuente a lo largo del tiempo, facilitando la colaboración, la trazabilidad y el trabajo mediante ramas (#[em branches]).
+                  img.flujo-zigzag__icono.d-none.d-lg-block(src='@/assets/curso/temas/t3/11.svg')
+                  .flujo-zigzag__linea
+                .flujo-zigzag__paso(data-aos="fade-down")
+                  .flujo-zigzag__numero 3
+                  .flujo-zigzag__texto
+                    h4.mb-2 Empaquetador (Vite o Webpack)
+                    p.mb-0 Herramientas que permiten gestionar y optimizar los recursos de una aplicación durante el proceso de desarrollo y construcción, incluyendo tareas como el procesamiento de dependencias, la transformación del código y la generación de archivos optimizados para su distribución.
+                  img.flujo-zigzag__icono.d-none.d-lg-block(src='@/assets/curso/temas/t3/12.svg')
+                  .flujo-zigzag__linea
+                .flujo-zigzag__paso.flujo-zigzag__paso--der(data-aos="fade-down")
+                  .flujo-zigzag__numero 4
+                  .flujo-zigzag__texto
+                    h4.mb-2 Contenedor (Docker)
+                    p.mb-0 Tecnología de contenerización que permite empaquetar una aplicación junto con sus dependencias y configuraciones en un entorno aislado y reproducible, facilitando su ejecución consistente en diferentes entornos de desarrollo, prueba y producción.
+                  img.flujo-zigzag__icono.d-none.d-lg-block(src='@/assets/curso/temas/t3/13.svg')
+                  .flujo-zigzag__linea
+                .flujo-zigzag__paso(data-aos="fade-down")
+                  .flujo-zigzag__numero 5
+                  .flujo-zigzag__texto
+                    h4.mb-2 Servidor de producción
+                    p.mb-0 Entorno en el que la aplicación se despliega y queda disponible para los usuarios finales. Comprende la configuración del servidor, la ejecución de los servicios necesarios y la gestión de aspectos como disponibilidad, seguridad, rendimiento y monitoreo.
+                  img.flujo-zigzag__icono.d-none.d-lg-block(src='@/assets/curso/temas/t3/14.svg')
+                  .flujo-zigzag__linea
 
     .cajon.C01.color-secundario.py-4.px-5.mb-5(data-aos="fade-down")
       p.mb-0 Es importante destacar que, dentro de este flujo de trabajo, el control de versiones permite gestionar de manera organizada los cambios realizados durante el desarrollo de una aplicación. Como ejemplo de su aplicación, los siguientes comandos muestran un flujo básico de trabajo con Git, desde la inicialización de un repositorio local y la creación de una rama hasta el registro de los cambios y su envío al repositorio remoto:

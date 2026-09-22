@@ -51,37 +51,39 @@
           h5 Figura 2.
           span Diagrama de flujo y capas de los protocolos de comunicación
         figure.mb-4(data-aos="fade-down")
-          img.d-none.d-md-block.w-100(src='@/assets/curso/temas/t2/5.svg' alt='Figura 2. Flujo de comunicación entre un cliente o navegador y un servidor web, con las capas que intervienen en la transmisión de datos: HTTP o HTTPS en la comunicación web, TLS o SSL para el cifrado y TCP/IP para el transporte de la información entre el cliente y el servidor.')
-          img.d-md-none.m-auto(src='@/assets/curso/temas/t2/5-m.svg' alt='Figura 2. Flujo de comunicación entre un cliente o navegador y un servidor web, con las capas que intervienen en la transmisión de datos: HTTP o HTTPS en la comunicación web, TLS o SSL para el cifrado y TCP/IP para el transporte de la información entre el cliente y el servidor.')
+          img.d-none.d-md-block.w-100(src='@/assets/curso/temas/t2/5.svg' alt='Figura 2 que representa el flujo de comunicación entre un cliente o navegador y un servidor web. El diagrama muestra las capas que intervienen en la transmisión de datos: HTTP o HTTPS en la comunicación web, TLS o SSL para el cifrado y TCP/IP para el transporte de la información entre el cliente y el servidor.')
+          img.d-md-none.m-auto(src='@/assets/curso/temas/t2/5-m.svg' alt='Figura 2 que representa el flujo de comunicación entre un cliente o navegador y un servidor web. El diagrama muestra las capas que intervienen en la transmisión de datos: HTTP o HTTPS en la comunicación web, TLS o SSL para el cifrado y TCP/IP para el transporte de la información entre el cliente y el servidor.')
         p.mb-0(data-aos="fade-down") Las peticiones HTTP utilizan diferentes métodos para indicar la acción que el cliente desea realizar sobre un recurso del servidor. Cada método cumple una función específica dentro del intercambio de información y permite distinguir operaciones como consultar, enviar, actualizar o eliminar datos. Entre los métodos más utilizados se encuentran:
 
     .bg-banda.bg-banda--t2-1.mb-5
-      .row.align-items-center
-        .col-lg-4.d-none.d-lg-block.align-self-end
-          figure
-            img(src='@/assets/curso/temas/t2/6.png' style="width: 396px")
-        .col-lg-8.py-5
-          SlyderF.slyder--C02(columnas="col-md-6")
-            .tarjeta.bg-white.p-4
-              figure.mb-3
-                img.m-auto(src='@/assets/curso/temas/t2/7.svg' style="width: 96px")
-              p.text-center.mb-0 #[b GET.] Solicita la representación de un recurso específico sin modificarlo en el servidor. Se utiliza principalmente para consultar y recuperar información.
-            .tarjeta.bg-white.p-4
-              figure.mb-3
-                img.m-auto(src='@/assets/curso/temas/t2/8.svg' style="width: 96px")
-              p.text-center.mb-0 #[b POST.] Envía datos al servidor para la creación de un nuevo recurso o el procesamiento de entidades.
-            .tarjeta.bg-white.p-4
-              figure.mb-3
-                img.m-auto(src='@/assets/curso/temas/t2/9.svg' style="width: 96px")
-              p.text-center.mb-0 #[b PUT.] Reemplaza de forma íntegra el recurso destino con la carga útil (#[em payload]) proporcionada.
-            .tarjeta.bg-white.p-4
-              figure.mb-3
-                img.m-auto(src='@/assets/curso/temas/t2/10.svg' style="width: 96px")
-              p.text-center.mb-0 #[b PATCH.] Aplica modificaciones parciales a un recurso existente.
-            .tarjeta.bg-white.p-4
-              figure.mb-3
-                img.m-auto(src='@/assets/curso/temas/t2/11.svg' style="width: 96px")
-              p.text-center.mb-0 #[b DELETE.] Elimina el recurso especificado en el servidor.
+      .col-12
+        .p-5.p-lg-0
+          .row.align-items-center
+            .col-lg-4.d-none.d-lg-block.align-self-end
+              figure
+                img(src='@/assets/curso/temas/t2/6.png' style="width: 396px")
+            .col-lg-8.py-5
+              SlyderF.slyder--C02(columnas="col-md-6")
+                .tarjeta.bg-white.p-4
+                  figure.mb-3
+                    img.m-auto(src='@/assets/curso/temas/t2/7.svg' style="width: 96px")
+                  p.text-center.mb-0 #[b GET.] Solicita la representación de un recurso específico sin modificarlo en el servidor. Se utiliza principalmente para consultar y recuperar información.
+                .tarjeta.bg-white.p-4
+                  figure.mb-3
+                    img.m-auto(src='@/assets/curso/temas/t2/8.svg' style="width: 96px")
+                  p.text-center.mb-0 #[b POST.] Envía datos al servidor para la creación de un nuevo recurso o el procesamiento de entidades.
+                .tarjeta.bg-white.p-4
+                  figure.mb-3
+                    img.m-auto(src='@/assets/curso/temas/t2/9.svg' style="width: 96px")
+                  p.text-center.mb-0 #[b PUT.] Reemplaza de forma íntegra el recurso destino con la carga útil (#[em payload]) proporcionada.
+                .tarjeta.bg-white.p-4
+                  figure.mb-3
+                    img.m-auto(src='@/assets/curso/temas/t2/10.svg' style="width: 96px")
+                  p.text-center.mb-0 #[b PATCH.] Aplica modificaciones parciales a un recurso existente.
+                .tarjeta.bg-white.p-4
+                  figure.mb-3
+                    img.m-auto(src='@/assets/curso/temas/t2/11.svg' style="width: 96px")
+                  p.text-center.mb-0 #[b DELETE.] Elimina el recurso especificado en el servidor.
 
     p.mb-4(data-aos="fade-down") Una vez procesada la petición, el servidor devuelve una respuesta que incluye un código de estado HTTP. Este código permite identificar de manera estandarizada el resultado de la solicitud y se organiza en cinco categorías principales según el tipo de respuesta:
 
@@ -117,8 +119,8 @@
           h5 Figura 3.
           span Diagrama de secuencia del apretón de manos HTTPS
         figure.mb-4(data-aos="fade-down")
-          img.d-none.d-md-block.w-100(src='@/assets/curso/temas/t2/14.svg' alt='Figura 3. Secuencia del establecimiento de una conexión HTTPS entre el navegador cliente y el servidor web, desde la solicitud inicial y la presentación y validación del certificado digital hasta el intercambio de claves y el establecimiento del canal cifrado.')
-          img.d-md-none.m-auto(src='@/assets/curso/temas/t2/14-m.svg' alt='Figura 3. Secuencia del establecimiento de una conexión HTTPS entre el navegador cliente y el servidor web, desde la solicitud inicial y la presentación y validación del certificado digital hasta el intercambio de claves y el establecimiento del canal cifrado.')
+          img.d-none.d-md-block.w-100(src='@/assets/curso/temas/t2/14.svg' alt='Figura 3 que representa la secuencia del establecimiento de una conexión HTTPS entre el navegador cliente y el servidor web, desde la solicitud inicial y la presentación y validación del certificado digital hasta el intercambio de claves y el establecimiento del canal cifrado.')
+          img.d-md-none.m-auto(src='@/assets/curso/temas/t2/14-m.svg' alt='Figura 3 que representa la secuencia del establecimiento de una conexión HTTPS entre el navegador cliente y el servidor web, desde la solicitud inicial y la presentación y validación del certificado digital hasta el intercambio de claves y el establecimiento del canal cifrado.')
         .titulo-cuarto-nivel.mb-4(data-aos="fade-right")
           h4 • Pilares de seguridad en HTTPS
         p.mb-4(data-aos="fade-down") La seguridad proporcionada por HTTPS se sustenta en tres pilares fundamentales: el cifrado, la integridad y la autenticación. El cifrado de datos protege la información intercambiada entre el cliente y el servidor, de manera que credenciales, datos personales u otra información sensible no puedan ser interpretados fácilmente si son interceptados durante la transmisión.

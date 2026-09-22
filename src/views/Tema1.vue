@@ -26,7 +26,7 @@
             p.mb-0 Sistema de cómputo o proceso informático que escucha de manera continua las peticiones entrantes, procesa la lógica de negocio asociada y retorna una respuesta formateada.
           div(titulo="Patrón Modelo-Vista-Controlador (MVC)")
             p Patrón arquitectónico que desacopla el #[em software] en tres capas fundamentales:
-            ul.lista-ul.lista-ul--punto.mb-0
+            ul.lista-ul.lista-ul--punto.mb-0.bg-white.p-3
               li
                 i.lista-ul__vineta
                 span #[b Modelo:] gestiona la lógica de datos y las reglas de negocio.
@@ -92,8 +92,8 @@
       h5 Figura 1.
       span Esquema de arquitecturas #[em web] principales (monolítica vs. desacoplada con SPA)
     figure.mb-5(data-aos="fade-down")
-      img.d-none.d-md-block.w-100(src='@/assets/curso/temas/t1/6.svg' alt='Figura 1. Comparación entre una arquitectura monolítica (MPA), en la que el navegador se comunica mediante peticiones HTTP con un servidor web que integra la lógica de negocio y la base de datos, y una arquitectura desacoplada (SPA y microservicios), donde el cliente realiza peticiones JSON a una API Gateway conectada con diferentes microservicios.')
-      img.d-md-none.m-auto(src='@/assets/curso/temas/t1/6-m.svg' alt='Figura 1. Comparación entre una arquitectura monolítica (MPA), en la que el navegador se comunica mediante peticiones HTTP con un servidor web que integra la lógica de negocio y la base de datos, y una arquitectura desacoplada (SPA y microservicios), donde el cliente realiza peticiones JSON a una API Gateway conectada con diferentes microservicios.')
+      img.d-none.d-md-block.w-100(src='@/assets/curso/temas/t1/6.svg' alt='Figura 1 que presenta una comparación entre una arquitectura monolítica (MPA), en la que el navegador se comunica mediante peticiones HTTP con un servidor web que integra la lógica de negocio y la base de datos, y una arquitectura desacoplada (SPA y microservicios), donde el cliente realiza peticiones JSON a una API Gateway conectada con diferentes microservicios.')
+      img.d-md-none.m-auto(src='@/assets/curso/temas/t1/6-m.svg' alt='Figura 1 que presenta una comparación entre una arquitectura monolítica (MPA), en la que el navegador se comunica mediante peticiones HTTP con un servidor web que integra la lógica de negocio y la base de datos, y una arquitectura desacoplada (SPA y microservicios), donde el cliente realiza peticiones JSON a una API Gateway conectada con diferentes microservicios.')
 
     .row.justify-content-center.mb-5
       .col-lg-10

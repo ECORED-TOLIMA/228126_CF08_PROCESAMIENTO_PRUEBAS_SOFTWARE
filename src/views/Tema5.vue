@@ -82,8 +82,8 @@
           h5 Figura 5.
           span Diagrama del ciclo metodológico de análisis #[em web]
         figure(data-aos="fade-down")
-          img.d-none.d-md-block.w-100(src='@/assets/curso/temas/t5/9.svg' alt='Figura 5. Ciclo metodológico de análisis web en cuatro fases secuenciales y cíclicas: recolección de datos a partir de registros y métricas, depuración y filtrado, interpretación de indicadores clave de rendimiento (KPI) y optimización y refactorización, con el retorno a la fase inicial para nuevos ciclos de mejora.')
-          img.d-md-none.m-auto(src='@/assets/curso/temas/t5/9-m.svg' alt='Figura 5. Ciclo metodológico de análisis web en cuatro fases secuenciales y cíclicas: recolección de datos a partir de registros y métricas, depuración y filtrado, interpretación de indicadores clave de rendimiento (KPI) y optimización y refactorización, con el retorno a la fase inicial para nuevos ciclos de mejora.')
+          img.d-none.d-md-block.w-100(src='@/assets/curso/temas/t5/9.svg' alt='Figura 5 que representa el ciclo metodológico de análisis web mediante cuatro fases conectadas de manera secuencial y cíclica: recolección de datos a partir de registros y métricas, depuración y filtrado de la información, interpretación de indicadores clave de rendimiento (KPI), y optimización y refactorización. Las flechas indican la continuidad del proceso y el retorno a la fase inicial para realizar nuevos ciclos de análisis y mejora.')
+          img.d-md-none.m-auto(src='@/assets/curso/temas/t5/9-m.svg' alt='Figura 5 que representa el ciclo metodológico de análisis web mediante cuatro fases conectadas de manera secuencial y cíclica: recolección de datos a partir de registros y métricas, depuración y filtrado de la información, interpretación de indicadores clave de rendimiento (KPI), y optimización y refactorización. Las flechas indican la continuidad del proceso y el retorno a la fase inicial para realizar nuevos ciclos de análisis y mejora.')
 
     separador
     #t_5_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
@@ -156,7 +156,7 @@
         .row.g-0.bg-C08.align-items-center.mb-4(data-aos="fade-down")
           .col-lg-auto.d-none.d-lg-block
             img(src='@/assets/curso/temas/t5/18.png' style="width: 396px")
-          .col-lg.p-4.px-lg-5
+          .col-lg.p-3.px-lg-5
             p Este enfoque permite que las acciones de mejora no respondan únicamente a apreciaciones subjetivas, sino a evidencias que puedan analizarse y compararse. La optimización de recursos, la refactorización del código, los ajustes de infraestructura o las modificaciones de la interfaz deben relacionarse con indicadores y criterios previamente definidos que permitan comprobar posteriormente el efecto de las decisiones adoptadas.
             p.mb-0 De esta manera, el análisis, la evaluación y la optimización conforman un ciclo de mejora continua en el que los resultados obtenidos orientan nuevas acciones y permiten realizar posteriores mediciones. La selección de la acción técnica dependerá de la métrica analizada, del problema identificado y del contexto particular de la aplicación.
         p.mb-0(data-aos="fade-down") Como síntesis de esta relación, la siguiente tabla presenta ejemplos de métricas asociadas con diferentes dimensiones de un sitio #[em web], las herramientas que pueden utilizarse para su diagnóstico, valores de referencia que requieren atención y posibles acciones técnicas de optimización:
