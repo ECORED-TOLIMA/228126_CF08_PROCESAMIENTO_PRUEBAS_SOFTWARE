@@ -54,3 +54,7 @@ Cada punto dice qué se decidió y por qué, para poder revertirlo si no es lo q
     compuesto (`Unión 6`) que el exportador no rasteriza; la composición se recorta del PDF.
 16. **Tema 4 · slider del 4.3.** Cinco diapositivas (encabezado en el artboard, las otras cuatro en
     el pasteboard). El XD escribe «1/2»; el componente cuenta 1/5…5/5.
+17. **Tema 5 · paso a paso del 5.2.** Se usa `PasosB` del kit (cuatro fases; las fotos de las tres
+    últimas están en el pasteboard). El XD rotula los pasos A-D y el componente los numera 1-4.
+18. **Tema 5 · foto del 5.5.** Las dos insignias circulares llevan un relleno que el exportador no
+    rasteriza; la foto se recorta del PDF.

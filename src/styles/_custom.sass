@@ -477,6 +477,64 @@ figcaption
 .bg-C08
   background-color: $color-1-v
 
+// Tema 5 ------------------------------------------------------------------------------------
+.bg-banda
+  &--t5-1
+    background-image: url(../assets/curso/temas/bg/t5-1.png)
+.bg-C09
+  background-color: $color-secundario
+// Nota bajo la Tabla 5: #19538D cuadrada, texto blanco.
+.bg-C10
+  background-color: $color-2-vo
+  p
+    color: $white
+
+// Paso a paso del 5.2 (PasosB): activo #A10000, hecho #9ECFFF con el check oscuro, pendiente
+// blanco con borde #19538D, línea #9D9D9D y flechas en círculo #A10000.
+.pasos-b.pasos--C01
+  .pasos-b__header__item__line-container
+    &:before, &:after
+      background-color: #9D9D9D !important
+  .pasos-b__header__item__dot
+    border: 2px solid $color-2-vo
+    background-color: $white
+    span
+      color: $color-sistema-texto
+  .pasos-b__header__item--active .pasos-b__header__item__dot
+    border-color: $color-acento-botones
+    background-color: $color-acento-botones
+    span
+      color: $white
+  .pasos-b__header__item--before .pasos-b__header__item__dot
+    border-color: $color-secundario
+    background-color: $color-secundario
+    i
+      color: $color-sistema-texto
+  .pasos-b__header__item__tittle
+    display: none
+  .pasos-b__header__btn--left, .pasos-b__header__btn--right
+    background-color: $color-acento-botones
+    border: none
+    i
+      color: $white
+
+// Lista de métricas del 5.3: icono cuadrado #62249E de 84 y divisor #62249E de 2 px.
+.lista-iconos-divisor
+  > div
+    display: flex
+    align-items: center
+    padding: 16px 0
+    border-bottom: 2px solid $color-1-vo
+    &:first-child
+      padding-top: 0
+    &:last-child
+      border-bottom: none
+      padding-bottom: 0
+    img
+      flex: 0 0 84px
+      width: 84px
+      margin-right: 38px
+
 /**************************************************************/
 /***CUSTOM STYLES***/
 /**************************************************************/
