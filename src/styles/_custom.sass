@@ -239,6 +239,8 @@ figcaption
   pre.language-plaintext
     background-color: transparent !important
     margin: 0 !important
+    // En móvil las líneas largas empujaban la página entera: el scroll va DENTRO de la tarjeta.
+    overflow-x: auto
     padding: 36px 43px !important
     code
       font-family: Roboto, sans-serif !important
@@ -251,6 +253,8 @@ figcaption
 .tabla-a.tabla--C01
   thead
     border-top: none
+    // El kit pinta el propio `thead` de gris ($color-sistema-f) y asomaba por detrás de los `th`.
+    background-color: transparent
   table
     thead th
       background-color: $color-3-vc
