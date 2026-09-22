@@ -61,3 +61,11 @@ Cada punto dice qué se decidió y por qué, para poder revertirlo si no es lo q
 19. **Síntesis.** El artboard es la hoja del anexo imprimible (lleva el logo del SENA dentro de la
     tarjeta); la pantalla web se maqueta con `BannerInterno` y del artboard se toman el texto y el
     mapa. El `Anexo. Síntesis` (`public/downloads/Sintesis.pdf`) es el que entrega el cliente.
+20. **Actividad didáctica.** Se transcribe del `_AD.docx`: 20 preguntas (el kit muestra 10 al azar,
+    por eso `barajarPreguntas` y `barajarRespuestas` van en `true`). Comprobado por CDP: acertando
+    todo da 100 % y el mensaje de aprobado; fallando todo, 0 % y el de mejora; la
+    retroalimentación no se duplica. Los títulos de resultado son los `default` del kit.
+21. **Imágenes de la actividad.** Las diez del repo son cinco distintas repetidas por parejas
+    (`imagen1 = imagen7`, `imagen2 = imagen8`, `imagen3 = imagen9`, `imagen4 = imagen10`,
+    `imagen5 = imagen6`) y no están en el XD ni en el PDF: las aporta el diseñador. Se dejan como
+    marcadores, una por pregunta.
