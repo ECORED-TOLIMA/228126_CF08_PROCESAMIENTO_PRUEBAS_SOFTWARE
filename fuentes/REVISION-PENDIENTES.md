@@ -58,3 +58,6 @@ Cada punto dice qué se decidió y por qué, para poder revertirlo si no es lo q
     últimas están en el pasteboard). El XD rotula los pasos A-D y el componente los numera 1-4.
 18. **Tema 5 · foto del 5.5.** Las dos insignias circulares llevan un relleno que el exportador no
     rasteriza; la foto se recorta del PDF.
+19. **Síntesis.** El artboard es la hoja del anexo imprimible (lleva el logo del SENA dentro de la
+    tarjeta); la pantalla web se maqueta con `BannerInterno` y del artboard se toman el texto y el
+    mapa. El `Anexo. Síntesis` (`public/downloads/Sintesis.pdf`) es el que entrega el cliente.
