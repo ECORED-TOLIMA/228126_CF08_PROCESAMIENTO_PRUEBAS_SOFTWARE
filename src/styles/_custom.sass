@@ -100,6 +100,193 @@ figcaption
 .cajon.C01
   background-color: $color-2-vc
 
+// Fondos por par (fill, r) del XD ------------------------------------------------------------
+.bg-C01
+  background-color: $color-2-vo
+  border-radius: 12px
+  color: $white
+.bg-C02
+  background-color: $color-1-vo
+  color: $white
+  p
+    color: $white
+  > img
+    flex: 0 0 auto
+.bg-C03
+  background-color: $color-4-vc
+.bg-C04
+  background-color: $color-2-vc
+
+// Bandas decorativas full-bleed (PNG del grupo del XD, 1328 de ancho) ----------------------------
+.bg-banda
+  background-repeat: no-repeat
+  background-size: 100% 100%
+  margin-inline: -3.1rem
+  padding-inline: 3.1rem
+  @media (max-width: $bp-max-sm)
+    margin-inline: 0
+    padding-inline: 0
+    background-size: cover
+  &--t1-1
+    background-image: url(../assets/curso/temas/bg/t1-1.png)
+  &--t1-2
+    background-image: url(../assets/curso/temas/bg/t1-2.png)
+
+// Acordeones: cerrado #F9E7E7, abierto #DFEFFF; el radio es el del rect de cada acordeón.
+.tarjeta--C01, .tarjeta--C02
+  background-color: $color-4-vc
+  &.acordion__activo
+    background-color: $color-2-vc
+.tarjeta--C01
+  border-radius: 20px
+.tarjeta--C02
+  border-radius: 10px
+.acordion__accion__btn--a, .acordion__accion__btn--b
+  background-color: $color-acento-botones
+  border: none
+  box-shadow: none
+  i
+    color: $white
+.acordion__accion__btn--b
+  width: 42px
+  height: 42px
+.acordion__accion__btn--a
+  width: 50px
+  height: 50px
+
+// Tarjeta con icono circular de 130 a la izquierda (tarjeta-avatar-b del kit)
+.tarjeta--C03
+  background-color: $color-2-vc
+  border-radius: 10px
+  min-height: 178px
+  display: flex
+  align-items: center
+
+// Viñeta: punto #FBB03F de 9 px, texto con sangría francesa
+.lista-ul--punto
+  li
+    display: flex
+    > i.lista-ul__vineta
+      flex: 0 0 auto
+      width: 9px
+      height: 9px
+      margin: 8px 7px 0 0
+      border-radius: 50%
+      background-color: $color-3-v
+      &:before
+        content: none
+
+// Lista numerada en cuadro #FFDE92 con el número oscuro en negrilla y divisores #AFAFAF
+.lista-ol--cuadro.lista-ol--divisor
+  li
+    display: flex
+    padding-bottom: 14px
+    margin-bottom: 14px
+    border-bottom: 1px solid #AFAFAF
+    &:last-child
+      padding-bottom: 0
+      margin-bottom: 0
+      border-bottom: none
+  .lista-ol--cuadro__vineta
+    flex: 0 0 24px
+    margin-right: 14px
+    span
+      color: $color-sistema-texto
+      font-weight: $base-bold-font-weight
+
+// Título de tercer nivel: icono de 48 (#7A4F1E) sobre la píldora #FFDE92 de 35 de alto
+.titulo-tercer-nivel
+  position: relative
+  display: inline-flex
+  align-items: center
+  max-width: 100%
+  min-height: 35px
+  padding: 3px 24px 3px 57px
+  background-color: $color-acento-contenido
+  border-radius: 0 18px 18px 0
+  &__icon
+    position: absolute
+    left: 0
+    top: 50%
+    transform: translateY(-50%)
+    width: 48px
+  &__text
+    margin: 0
+    font-size: 1.25em
+
+// Bloque de código: marco del XD (cabecera #3A1D71 de 55, cuerpo #F5F2F0, r=9). El XD lo pinta
+// como texto en Roboto oscuro, sin resaltado.
+.tarjeta-codigo
+  border-radius: 9px
+  overflow: hidden
+  position: relative
+  padding-top: 55px
+  background-color: #F5F2F0
+  &:before
+    position: absolute
+    content: ''
+    height: 55px
+    background-color: #3A1D71
+    width: 100%
+    top: 0
+    left: 0
+  &:after
+    position: absolute
+    content: url('../assets/curso/temas/botones.svg')
+    top: 0
+    left: 0
+    transform: translate(32px, 16px)
+  pre.language-plaintext
+    background-color: transparent !important
+    margin: 0 !important
+    padding: 36px 43px !important
+    code
+      font-family: Roboto, sans-serif !important
+      color: $color-sistema-texto !important
+      font-size: 1.25em
+      line-height: 1.2
+      text-shadow: none !important
+
+// Tabla 1 del tema 1: encabezado #FFEBBE, filas #F3F3F3 / blanco, divisores #AFAFAF
+.tabla-a.tabla--C01
+  thead
+    border-top: none
+  table
+    thead th
+      background-color: $color-3-vc
+      color: $color-sistema-texto
+      border: none
+      text-align: center
+      padding: 14px 20px
+    tbody
+      tr:nth-child(odd) td
+        background-color: #F3F3F3
+      tr:nth-child(even) td
+        background-color: $white
+      td
+        padding: 16px 33px 20px
+        border: none
+        vertical-align: top
+        height: 78px
+        &:not(:last-child)
+          border-right: 1px solid #AFAFAF
+
+// Slider del 1.3 (SlyderB): botón cuadrado #A10000 de 30 con la flecha blanca; imagen cuadrada.
+.slyder--C01
+  .slyder-b__img
+    border-radius: 0
+  .slyder__btn
+    width: 30px
+    height: 30px
+    display: inline-flex
+    align-items: center
+    justify-content: center
+    background-color: $color-acento-botones
+    color: $white
+    border-radius: 0
+    i
+      color: $white
+
 /**************************************************************/
 /***CUSTOM STYLES***/
 /**************************************************************/

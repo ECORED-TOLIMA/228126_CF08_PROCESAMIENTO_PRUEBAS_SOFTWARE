@@ -23,3 +23,12 @@ Cada punto dice qué se decidió y por qué, para poder revertirlo si no es lo q
    dos iconos circulares rotan.
 3. **Referencias bibliográficas.** El DI.docx no trae enlaces ni cursivas en ninguna; se
    transcriben tal cual, sin `link`.
+4. **Tema 1 · acordeón del 1.2.** El XD rotula los ítems 2 y 3 como «Titulo item 2/3»; su
+   contenido (SPA y microservicios) y sus fotos están en el pasteboard y en el DI.docx, y así se
+   maquetan.
+5. **Tema 1 · slider del 1.3.** El XD escribe «1/2» en las cuatro diapositivas (Jerárquica,
+   Lineal, En red y Mixta, las tres últimas en el pasteboard). El componente cuenta solo: 1/4…4/4.
+6. **Bloques de código.** Se reproducen como los dibuja el XD: marco con cabecera #3A1D71 y los
+   tres puntos, texto en Roboto oscuro y sin resaltado de sintaxis.
+7. **Títulos de las tarjetas con icono (1.4).** Van sin el punto final, como en el XD; en el
+   DI.docx forman parte de la frase.
