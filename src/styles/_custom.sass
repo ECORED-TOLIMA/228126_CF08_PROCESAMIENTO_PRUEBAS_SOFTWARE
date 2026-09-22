@@ -1,52 +1,104 @@
 @use 'variables' as *
+
+// Portada -----------------------------------------------------------------------------------
+// Medidas del hero del XD (artboard Portada): 1328x559, texto a 102 px del borde con un marco de
+// 489, persona (Grupo 1185059) a 717 px del borde y 27 de arriba. Los decorativos, según el
+// rótulo DESARROLLADORES del pasteboard: la bombilla «flotar verticalmente», los dos iconos
+// circulares «rotar».
+.banner-principal
+  .container.tarjeta
+    background-size: 100% 100%
+    background-position: center
+.banner-principal__img
+  padding-bottom: 0 !important
+
 .banner-principal-decorativo
   &-1
-    animation: float1 2.8s ease-in-out infinite alternate
+    animation: float1 3s ease-in-out infinite alternate
     position: absolute
-    top: 68%
-    left: -10%
-    width: 20%
+    width: 104px
   &-2
-    animation: float1 2.5s ease-in-out infinite alternate
+    animation: rotate1 4s linear infinite
     position: absolute
-    top: 30%
-    right: 10%
-    width: 20%
-
+    width: 41px
+  &-3
+    animation: rotate1 5s linear infinite
+    position: absolute
+    width: 41px
+  img
+    width: 100%
 
 @keyframes float1
   0%
-    transform: translateY(20px)
-
+    transform: translateY(12px)
   100%
-    transform: translateY(0px)
+    transform: translateY(-12px)
 
-.col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
-  flex: 0 0 auto !important
-  width: 58.33333333% !important
-.banner-principal__img 
-  padding-bottom: 0 !important;
-//.banner-principal__row .banner-principal__img 
-//    width: 33%;
-    
-.banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6
-  color: $white !important  
+@keyframes rotate1
+  from
+    transform: rotate(0deg)
+  to
+    transform: rotate(360deg)
+
+@media (min-width: $bp-min-lg)
+  .banner-principal
+    .container.tarjeta
+      height: 559px
+      max-width: 1328px
+    .banner-principal__row
+      height: 100%
+      align-items: flex-start
+    .col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
+      flex: 0 0 auto !important
+      width: 603px !important
+      padding-left: 102px !important
+      padding-top: 106px !important
+    // En el XD el párrafo arranca 6 px bajo el título; el kit deja 20.
+    .banner-principal__componente
+      margin-bottom: 6px
+    .banner-principal__img
+      position: relative
+      flex: 1 1 auto
+      width: auto
+      align-self: stretch
+      > img
+        position: absolute
+        left: 114px
+        top: 27px
+        width: 506px
+        max-width: none
+  .banner-principal-decorativo
+    &-1
+      left: 114px
+      top: 90px
+    &-2
+      left: 561px
+      top: 382px
+    &-3
+      left: 561px
+      top: 437px
 
 .boton *, .boton--sm *,
 .barra-avance__boton--regresar span
   color: $white !important
-.banner-interno__titulo h1, .banner-interno__titulo h2, 
-.banner-interno__titulo h3, .banner-interno__titulo h4, 
+.banner-interno__titulo h1, .banner-interno__titulo h2,
+.banner-interno__titulo h3, .banner-interno__titulo h4,
 .banner-interno__titulo h5, .banner-interno__titulo h6
-  color: $color-sistema-texto !important  
-.titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: $white !important
-figcaption 
-    font-weight: normal !important
+  color: $color-sistema-texto !important
+figcaption
+  font-weight: normal !important
 
-.banner-interno__titulo__icono i
-    color: $color-acento-botones !important;
+// Banner interno: fondo = Grupo 1183333 del artboard Banner (1600x180).
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/banner.png") !important
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
 
+
+// Cajones: el fondo exacto del `path` del XD en `.C0N`; la pestaña de 25x8 la pinta `.color-X`.
+.cajon.C01
+  background-color: $color-2-vc
 
 /**************************************************************/
 /***CUSTOM STYLES***/
@@ -84,8 +136,6 @@ figcaption
 @media screen and (max-width: $bp-max-md)
   .mb-cus
     margin-bottom: 2em  !important  
-  .col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
-    width: 90% !important
 
   
  
