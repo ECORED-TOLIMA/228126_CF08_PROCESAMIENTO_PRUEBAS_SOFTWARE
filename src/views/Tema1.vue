@@ -93,7 +93,7 @@
       span Esquema de arquitecturas #[em web] principales (monolítica vs. desacoplada con SPA)
     figure.mb-5(data-aos="fade-down")
       img.d-none.d-md-block.w-100(src='@/assets/curso/temas/t1/6.svg' alt='Figura 1 que presenta una comparación entre una arquitectura monolítica (MPA), en la que el navegador se comunica mediante peticiones HTTP con un servidor web que integra la lógica de negocio y la base de datos, y una arquitectura desacoplada (SPA y microservicios), donde el cliente realiza peticiones JSON a una API Gateway conectada con diferentes microservicios.')
-      img.d-md-none.m-auto(src='@/assets/curso/temas/t1/6-m.svg' alt='Figura 1 que presenta una comparación entre una arquitectura monolítica (MPA), en la que el navegador se comunica mediante peticiones HTTP con un servidor web que integra la lógica de negocio y la base de datos, y una arquitectura desacoplada (SPA y microservicios), donde el cliente realiza peticiones JSON a una API Gateway conectada con diferentes microservicios.')
+      img.d-md-none.m-auto(src='@/assets/curso/temas/t1/6-m.svg' alt='')
 
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -270,23 +270,23 @@
                 th Licencia propietaria y SaaS
             tbody
               tr
-                td #[b Costo de licencia.]
+                td Costo de licencia.
                 td Gratuita para modificación y distribución.
                 td Pago por suscripción, volumen o transacción.
               tr
-                td #[b Acceso al código.]
+                td Acceso al código.
                 td Total (#[em source code] visible y modificable).
                 td Restringido (#[em black box] gestionado por el proveedor).
               tr
-                td #[b Seguridad.]
+                td Seguridad.
                 td Auditoría comunitaria; parches descentralizados.
                 td Auditoría cerrada; acuerdos SLA garantizados.
               tr
-                td #[b Despliegue.]
+                td Despliegue.
                 td Requiere configuración de servidor propio o #[em cloud].
                 td Alojamiento administrado e integrado automáticamente.
               tr
-                td #[b Flexibilidad.]
+                td Flexibilidad.
                 td Personalización según requerimientos.
                 td Sujeta a las extensiones permitidas por la plataforma.
 </template>

@@ -80,7 +80,7 @@
           span Diagrama de interacción cliente - API REST - base de datos
         figure(data-aos="fade-down")
           img.d-none.d-md-block.w-100(src='@/assets/curso/temas/t3/9.svg' alt='Figura 4 que representa el flujo de comunicación entre un cliente frontend, un servidor backend mediante una API REST y una base de datos SQL. El proceso muestra el envío de una solicitud POST con datos JSON, la validación del token JWT y el procesamiento de la lógica en el servidor, la inserción de datos mediante SQL, la confirmación de la operación y la respuesta HTTP 201 Created enviada al cliente.')
-          img.d-md-none.m-auto(src='@/assets/curso/temas/t3/9-m.svg' alt='Figura 4 que representa el flujo de comunicación entre un cliente frontend, un servidor backend mediante una API REST y una base de datos SQL. El proceso muestra el envío de una solicitud POST con datos JSON, la validación del token JWT y el procesamiento de la lógica en el servidor, la inserción de datos mediante SQL, la confirmación de la operación y la respuesta HTTP 201 Created enviada al cliente.')
+          img.d-md-none.m-auto(src='@/assets/curso/temas/t3/9-m.svg' alt='')
 
     separador
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")

@@ -22,7 +22,7 @@ export default {
       tema: 'Fundamentos para el desarrollo de aplicaciones <em>web</em>',
       titulo: 'Cuestionario',
       introduccion:
-        '<b>Objetivo:</b> fortalecer la comprensión de los fundamentos del desarrollo web, estableciendo relaciones entre sus componentes técnicos para la construcción de soluciones interoperables, funcionales y orientadas a la mejora continua.',
+        '<b>Objetivo:</b> fortalecer la comprensión de los fundamentos del desarrollo <em>web</em>, estableciendo relaciones entre sus componentes técnicos para la construcción de soluciones interoperables, funcionales y orientadas a la mejora continua.',
       // el kit sólo muestra 10 de las 20: barajar es OBLIGATORIO
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
@@ -38,7 +38,7 @@ export default {
         {
           id: 1,
           texto:
-            '¿Cuál es la función principal de la arquitectura web en un proyecto de software?',
+            '¿Cuál es la función principal de la arquitectura <em>web</em> en un proyecto de software?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
@@ -65,7 +65,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Excelente trabajo! Se evidencia una adecuada comprensión de los fundamentos técnicos del desarrollo web, la construcción de sitios y el análisis de información.',
+            '¡Excelente trabajo! Se evidencia una adecuada comprensión de los fundamentos técnicos del desarrollo <em>web</em>, la construcción de sitios y el análisis de información.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
@@ -100,14 +100,14 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Excelente trabajo! Se evidencia una adecuada comprensión de los fundamentos técnicos del desarrollo web, la construcción de sitios y el análisis de información.',
+            '¡Excelente trabajo! Se evidencia una adecuada comprensión de los fundamentos técnicos del desarrollo <em>web</em>, la construcción de sitios y el análisis de información.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 3,
           texto:
-            '¿Cuál es el propósito del protocolo HTTPS en la comunicación web?',
+            '¿Cuál es el propósito del protocolo HTTPS en la comunicación <em>web</em>?',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
@@ -134,14 +134,14 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Excelente trabajo! Se evidencia una adecuada comprensión de los fundamentos técnicos del desarrollo web, la construcción de sitios y el análisis de información.',
+            '¡Excelente trabajo! Se evidencia una adecuada comprensión de los fundamentos técnicos del desarrollo <em>web</em>, la construcción de sitios y el análisis de información.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 4,
           texto:
-            '¿Qué caracteriza al diseño web responsivo (responsive web design)?',
+            '¿Qué caracteriza al diseño <em>web</em> responsivo (responsive <em>web</em> design)?',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
@@ -171,7 +171,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Excelente trabajo! Se evidencia una adecuada comprensión de los fundamentos técnicos del desarrollo web, la construcción de sitios y el análisis de información.',
+            '¡Excelente trabajo! Se evidencia una adecuada comprensión de los fundamentos técnicos del desarrollo <em>web</em>, la construcción de sitios y el análisis de información.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
@@ -204,14 +204,14 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Excelente trabajo! Se evidencia una adecuada comprensión de los fundamentos técnicos del desarrollo web, la construcción de sitios y el análisis de información.',
+            '¡Excelente trabajo! Se evidencia una adecuada comprensión de los fundamentos técnicos del desarrollo <em>web</em>, la construcción de sitios y el análisis de información.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 6,
           texto:
-            '¿Cuál es la función del dominio o DNS en la infraestructura de un sitio web?',
+            '¿Cuál es la función del dominio o DNS en la infraestructura de un sitio <em>web</em>?',
           imagen: '@/assets/actividad/imagen6.png',
           barajarRespuestas: true,
           opciones: [
@@ -238,7 +238,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Excelente trabajo! Se evidencia una adecuada comprensión de los fundamentos técnicos del desarrollo web, la construcción de sitios y el análisis de información.',
+            '¡Excelente trabajo! Se evidencia una adecuada comprensión de los fundamentos técnicos del desarrollo <em>web</em>, la construcción de sitios y el análisis de información.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
@@ -271,7 +271,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Excelente trabajo! Se evidencia una adecuada comprensión de los fundamentos técnicos del desarrollo web, la construcción de sitios y el análisis de información.',
+            '¡Excelente trabajo! Se evidencia una adecuada comprensión de los fundamentos técnicos del desarrollo <em>web</em>, la construcción de sitios y el análisis de información.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
@@ -304,14 +304,14 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Excelente trabajo! Se evidencia una adecuada comprensión de los fundamentos técnicos del desarrollo web, la construcción de sitios y el análisis de información.',
+            '¡Excelente trabajo! Se evidencia una adecuada comprensión de los fundamentos técnicos del desarrollo <em>web</em>, la construcción de sitios y el análisis de información.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 9,
           texto:
-            '¿Qué es una prueba A/B (A/B testing) en el contexto de analítica web?',
+            '¿Qué es una prueba A/B (A/B testing) en el contexto de analítica <em>web</em>?',
           imagen: '@/assets/actividad/imagen9.png',
           barajarRespuestas: true,
           opciones: [
@@ -339,7 +339,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Excelente trabajo! Se evidencia una adecuada comprensión de los fundamentos técnicos del desarrollo web, la construcción de sitios y el análisis de información.',
+            '¡Excelente trabajo! Se evidencia una adecuada comprensión de los fundamentos técnicos del desarrollo <em>web</em>, la construcción de sitios y el análisis de información.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
@@ -372,14 +372,14 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Excelente trabajo! Se evidencia una adecuada comprensión de los fundamentos técnicos del desarrollo web, la construcción de sitios y el análisis de información.',
+            '¡Excelente trabajo! Se evidencia una adecuada comprensión de los fundamentos técnicos del desarrollo <em>web</em>, la construcción de sitios y el análisis de información.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 11,
           texto:
-            '¿Cuál de los siguientes estándares se enfoca en regular la accesibilidad para personas con discapacidad en la web?',
+            '¿Cuál de los siguientes estándares se enfoca en regular la accesibilidad para personas con discapacidad en la <em>web</em>?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
@@ -405,14 +405,14 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Excelente trabajo! Se evidencia una adecuada comprensión de los fundamentos técnicos del desarrollo web, la construcción de sitios y el análisis de información.',
+            '¡Excelente trabajo! Se evidencia una adecuada comprensión de los fundamentos técnicos del desarrollo <em>web</em>, la construcción de sitios y el análisis de información.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 12,
           texto:
-            '¿Qué tecnología se utiliza principalmente para definir la estructura semántica de un sitio web?',
+            '¿Qué tecnología se utiliza principalmente para definir la estructura semántica de un sitio <em>web</em>?',
           imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
@@ -438,14 +438,14 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Excelente trabajo! Se evidencia una adecuada comprensión de los fundamentos técnicos del desarrollo web, la construcción de sitios y el análisis de información.',
+            '¡Excelente trabajo! Se evidencia una adecuada comprensión de los fundamentos técnicos del desarrollo <em>web</em>, la construcción de sitios y el análisis de información.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 13,
           texto:
-            '¿Qué caracteriza a una arquitectura web basada en microservicios?',
+            '¿Qué caracteriza a una arquitectura <em>web</em> basada en microservicios?',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
@@ -473,7 +473,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Excelente trabajo! Se evidencia una adecuada comprensión de los fundamentos técnicos del desarrollo web, la construcción de sitios y el análisis de información.',
+            '¡Excelente trabajo! Se evidencia una adecuada comprensión de los fundamentos técnicos del desarrollo <em>web</em>, la construcción de sitios y el análisis de información.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
@@ -506,14 +506,14 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Excelente trabajo! Se evidencia una adecuada comprensión de los fundamentos técnicos del desarrollo web, la construcción de sitios y el análisis de información.',
+            '¡Excelente trabajo! Se evidencia una adecuada comprensión de los fundamentos técnicos del desarrollo <em>web</em>, la construcción de sitios y el análisis de información.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 15,
           texto:
-            '¿Cuál es la función principal de vite o webpack en el desarrollo web?',
+            '¿Cuál es la función principal de vite o webpack en el desarrollo <em>web</em>?',
           imagen: '@/assets/actividad/imagen5.png',
           barajarRespuestas: true,
           opciones: [
@@ -540,7 +540,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Excelente trabajo! Se evidencia una adecuada comprensión de los fundamentos técnicos del desarrollo web, la construcción de sitios y el análisis de información.',
+            '¡Excelente trabajo! Se evidencia una adecuada comprensión de los fundamentos técnicos del desarrollo <em>web</em>, la construcción de sitios y el análisis de información.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
@@ -573,13 +573,15 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Excelente trabajo! Se evidencia una adecuada comprensión de los fundamentos técnicos del desarrollo web, la construcción de sitios y el análisis de información.',
+            '¡Excelente trabajo! Se evidencia una adecuada comprensión de los fundamentos técnicos del desarrollo <em>web</em>, la construcción de sitios y el análisis de información.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 17,
-          texto: '¿Qué implica un requerimiento funcional en un proyecto web?',
+          texto:
+           
+            '¿Qué implica un requerimiento funcional en un proyecto <em>web</em>?',
           imagen: '@/assets/actividad/imagen7.png',
           barajarRespuestas: true,
           opciones: [
@@ -605,7 +607,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Excelente trabajo! Se evidencia una adecuada comprensión de los fundamentos técnicos del desarrollo web, la construcción de sitios y el análisis de información.',
+            '¡Excelente trabajo! Se evidencia una adecuada comprensión de los fundamentos técnicos del desarrollo <em>web</em>, la construcción de sitios y el análisis de información.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
@@ -639,14 +641,14 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Excelente trabajo! Se evidencia una adecuada comprensión de los fundamentos técnicos del desarrollo web, la construcción de sitios y el análisis de información.',
+            '¡Excelente trabajo! Se evidencia una adecuada comprensión de los fundamentos técnicos del desarrollo <em>web</em>, la construcción de sitios y el análisis de información.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 19,
           texto:
-            '¿Qué método de comunicación web realiza peticiones en segundo plano sin interrumpir la interfaz del usuario?',
+            '¿Qué método de comunicación <em>web</em> realiza peticiones en segundo plano sin interrumpir la interfaz del usuario?',
           imagen: '@/assets/actividad/imagen9.png',
           barajarRespuestas: true,
           opciones: [
@@ -672,14 +674,14 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Excelente trabajo! Se evidencia una adecuada comprensión de los fundamentos técnicos del desarrollo web, la construcción de sitios y el análisis de información.',
+            '¡Excelente trabajo! Se evidencia una adecuada comprensión de los fundamentos técnicos del desarrollo <em>web</em>, la construcción de sitios y el análisis de información.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 20,
           texto:
-            '¿Cuál es el objetivo final de llevar a cabo un análisis de información en un sitio web?',
+            '¿Cuál es el objetivo final de llevar a cabo un análisis de información en un sitio <em>web</em>?',
           imagen: '@/assets/actividad/imagen10.png',
           barajarRespuestas: true,
           opciones: [
@@ -705,7 +707,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Excelente trabajo! Se evidencia una adecuada comprensión de los fundamentos técnicos del desarrollo web, la construcción de sitios y el análisis de información.',
+            '¡Excelente trabajo! Se evidencia una adecuada comprensión de los fundamentos técnicos del desarrollo <em>web</em>, la construcción de sitios y el análisis de información.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },

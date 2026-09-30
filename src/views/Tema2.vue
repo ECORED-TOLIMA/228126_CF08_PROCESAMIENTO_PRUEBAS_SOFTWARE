@@ -52,7 +52,7 @@
           span Diagrama de flujo y capas de los protocolos de comunicación
         figure.mb-4(data-aos="fade-down")
           img.d-none.d-md-block.w-100(src='@/assets/curso/temas/t2/5.svg' alt='Figura 2 que representa el flujo de comunicación entre un cliente o navegador y un servidor web. El diagrama muestra las capas que intervienen en la transmisión de datos: HTTP o HTTPS en la comunicación web, TLS o SSL para el cifrado y TCP/IP para el transporte de la información entre el cliente y el servidor.')
-          img.d-md-none.m-auto(src='@/assets/curso/temas/t2/5-m.svg' alt='Figura 2 que representa el flujo de comunicación entre un cliente o navegador y un servidor web. El diagrama muestra las capas que intervienen en la transmisión de datos: HTTP o HTTPS en la comunicación web, TLS o SSL para el cifrado y TCP/IP para el transporte de la información entre el cliente y el servidor.')
+          img.d-md-none.m-auto(src='@/assets/curso/temas/t2/5-m.svg' alt='')
         p.mb-0(data-aos="fade-down") Las peticiones HTTP utilizan diferentes métodos para indicar la acción que el cliente desea realizar sobre un recurso del servidor. Cada método cumple una función específica dentro del intercambio de información y permite distinguir operaciones como consultar, enviar, actualizar o eliminar datos. Entre los métodos más utilizados se encuentran:
 
     .bg-banda.bg-banda--t2-1.mb-5
@@ -120,7 +120,7 @@
           span Diagrama de secuencia del apretón de manos HTTPS
         figure.mb-4(data-aos="fade-down")
           img.d-none.d-md-block.w-100(src='@/assets/curso/temas/t2/14.svg' alt='Figura 3 que representa la secuencia del establecimiento de una conexión HTTPS entre el navegador cliente y el servidor web, desde la solicitud inicial y la presentación y validación del certificado digital hasta el intercambio de claves y el establecimiento del canal cifrado.')
-          img.d-md-none.m-auto(src='@/assets/curso/temas/t2/14-m.svg' alt='Figura 3 que representa la secuencia del establecimiento de una conexión HTTPS entre el navegador cliente y el servidor web, desde la solicitud inicial y la presentación y validación del certificado digital hasta el intercambio de claves y el establecimiento del canal cifrado.')
+          img.d-md-none.m-auto(src='@/assets/curso/temas/t2/14-m.svg' alt='')
         .titulo-cuarto-nivel.mb-4(data-aos="fade-right")
           h4 • Pilares de seguridad en HTTPS
         p.mb-4(data-aos="fade-down") La seguridad proporcionada por HTTPS se sustenta en tres pilares fundamentales: el cifrado, la integridad y la autenticación. El cifrado de datos protege la información intercambiada entre el cliente y el servidor, de manera que credenciales, datos personales u otra información sensible no puedan ser interpretados fácilmente si son interceptados durante la transmisión.
@@ -228,27 +228,27 @@
                 th(style="width: 25%") Frecuencia de verificación
             tbody
               tr
-                td #[b Seguridad de red.]
+                td Seguridad de red.
                 td Certificados de cifrado.
                 td TLS 1.3 y renovación automática mediante #[em Let's Encrypt.]
                 td Continuo.
               tr
-                td #[b Tiempo de respuesta.]
+                td Tiempo de respuesta.
                 td Time to First Byte (TTFB).
                 td Menor a 800 milisegundos en peticiones GET.
                 td Por cada despliegue.
               tr
-                td #[b Contraste de color.]
+                td Contraste de color.
                 td Relación de luminancia.
                 td Mínimo 4,5:1 (cumplimiento WCAG AA).
                 td Auditoría de interfaz.
               tr
-                td #[b Adaptabilidad UI.]
+                td Adaptabilidad UI.
                 td Puntos de interrupción.
                 td Configuración de #[em viewports] para 320 px, 768 px, 1024 px y 1440 px.
                 td Fase de maquetación.
               tr
-                td #[b Navegabilidad.]
+                td Navegabilidad.
                 td Jerarquía del teclado.
                 td Atributos #[em tabindex] lógicos y marcos de foco (#[em focus ring]) visibles.
                 td Pruebas de usabilidad.

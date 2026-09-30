@@ -83,7 +83,7 @@
           span Diagrama del ciclo metodológico de análisis #[em web]
         figure(data-aos="fade-down")
           img.d-none.d-md-block.w-100(src='@/assets/curso/temas/t5/9.svg' alt='Figura 5 que representa el ciclo metodológico de análisis web mediante cuatro fases conectadas de manera secuencial y cíclica: recolección de datos a partir de registros y métricas, depuración y filtrado de la información, interpretación de indicadores clave de rendimiento (KPI), y optimización y refactorización. Las flechas indican la continuidad del proceso y el retorno a la fase inicial para realizar nuevos ciclos de análisis y mejora.')
-          img.d-md-none.m-auto(src='@/assets/curso/temas/t5/9-m.svg' alt='Figura 5 que representa el ciclo metodológico de análisis web mediante cuatro fases conectadas de manera secuencial y cíclica: recolección de datos a partir de registros y métricas, depuración y filtrado de la información, interpretación de indicadores clave de rendimiento (KPI), y optimización y refactorización. Las flechas indican la continuidad del proceso y el retorno a la fase inicial para realizar nuevos ciclos de análisis y mejora.')
+          img.d-md-none.m-auto(src='@/assets/curso/temas/t5/9-m.svg' alt='')
 
     separador
     #t_5_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
