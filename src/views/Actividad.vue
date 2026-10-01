@@ -580,7 +580,6 @@ export default {
         {
           id: 17,
           texto:
-           
             '¿Qué implica un requerimiento funcional en un proyecto <em>web</em>?',
           imagen: '@/assets/actividad/imagen7.png',
           barajarRespuestas: true,
