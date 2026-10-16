@@ -1,1 +1,1 @@
-module.exports = 'Fundamentos para el desarrollo de aplicaciones <em>web</em>'
+module.exports = 'Fundamentos para el desarrollo de aplicaciones web'

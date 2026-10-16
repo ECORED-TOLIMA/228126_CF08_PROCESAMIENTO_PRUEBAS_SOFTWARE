@@ -176,7 +176,7 @@
         li
           .lista-ol--cuadro__vineta
             span 5
-          span #[b Validación de usabilidad.] Evaluación de los mapas de navegación para garantizar que el usuario pueda alcanzar cualquier contenido en un máximo de tres #[em clics].
+          span #[b Validación de usabilidad.] Evaluación de los mapas de navegación para garantizar que el usuario pueda alcanzar cualquier contenido en un máximo de tres clics.
 
     separador
     #t_1_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
@@ -292,11 +292,6 @@
 </template>
 
 <script>
-import img10 from '@/assets/curso/temas/t1/10.svg'
-import img11 from '@/assets/curso/temas/t1/11.svg'
-import img12 from '@/assets/curso/temas/t1/12.svg'
-import img13 from '@/assets/curso/temas/t1/13.svg'
-
 export default {
   name: 'Tema1',
   data: () => ({
@@ -305,28 +300,28 @@ export default {
         titulo: 'Jerárquica (árbol)',
         texto:
           'Organizada en niveles de profundidad desde una página principal (<em>home</em>) hacia secciones y subsecciones. Es el modelo estándar para portales corporativos e institucionales.',
-        imagen: img10,
+        imagen: '@/assets/curso/temas/t1/10.svg',
         leyendaImagen: '',
       },
       {
         titulo: 'Lineal',
         texto:
           'Guía al usuario a través de una secuencia estricta de pasos. Utilizada en procesos de pago (<em>checkout</em>) o módulos de aprendizaje guiado.',
-        imagen: img11,
+        imagen: '@/assets/curso/temas/t1/11.svg',
         leyendaImagen: '',
       },
       {
         titulo: 'En red (malla)',
         texto:
           'Permite la libre navegación entre nodos interconectados mediante hipervínculos, común en enciclopedias digitales y <em>wikis</em>.',
-        imagen: img12,
+        imagen: '@/assets/curso/temas/t1/12.svg',
         leyendaImagen: '',
       },
       {
         titulo: 'Mixta',
         texto:
           'Combina estructuras jerárquicas con enlaces transversales lineales o en red.',
-        imagen: img13,
+        imagen: '@/assets/curso/temas/t1/13.svg',
         leyendaImagen: '',
       },
     ],

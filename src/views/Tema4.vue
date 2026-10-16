@@ -182,35 +182,35 @@ export default {
         titulo: 'Encabezado (<em>header / nav</em>)',
         texto:
           'Se ubica generalmente en la parte superior y reúne elementos de identificación y navegación, como el logotipo y el menú principal.',
-        imagen: img6,
+        imagen: '@/assets/curso/temas/t4/6.svg',
         leyendaImagen: '',
       },
       {
         titulo: 'Sección principal (<em>hero banner</em>)',
         texto:
           'Área destacada que presenta información relevante, mensajes principales o llamadas a la acción.',
-        imagen: img7,
+        imagen: '@/assets/curso/temas/t4/7.svg',
         leyendaImagen: '',
       },
       {
         titulo: 'Área de contenido (<em>main / articles</em>)',
         texto:
           'Espacio central destinado a organizar y presentar la información principal del sitio mediante textos, imágenes, artículos u otros recursos.',
-        imagen: img8,
+        imagen: '@/assets/curso/temas/t4/8.svg',
         leyendaImagen: '',
       },
       {
         titulo: 'Barra lateral (<em>sidebar</em>)',
         texto:
           'Sección complementaria que puede contener enlaces, menús secundarios, información adicional u otros elementos de apoyo.',
-        imagen: img9,
+        imagen: '@/assets/curso/temas/t4/9.svg',
         leyendaImagen: '',
       },
       {
         titulo: 'Pie de página (<em>footer</em>)',
         texto:
           'Área ubicada al final del sitio que suele agrupar información complementaria, enlaces de interés, datos de contacto o información legal.',
-        imagen: img10,
+        imagen: '@/assets/curso/temas/t4/10.svg',
         leyendaImagen: '',
       },
     ],
